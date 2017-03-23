@@ -2,4 +2,4 @@
 layout: about
 ---
 
-This is an about page. Tell the people visiting your page a little about yourself.
+kisudsoe의 블로그입니다.
