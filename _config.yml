@@ -6,6 +6,7 @@ permalink: /blog/:title
 name: kisudsoe's Blog
 description: A Jekyll Theme - Basic
 google_verification: null
+disqus: kisudsoe
 
 
 # File management
