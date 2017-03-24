@@ -3,14 +3,14 @@ layout:    post
 title:     New Blog Start!
 author:    Kim SS
 tags: 		 post
-subtitle:  Some Short Description of Post
+subtitle:  Some test for blog settings
 category:  wiki
 ---
 
 # title
 ok? good?!
 
-```{R id:"j0nuzq17"}
+```
 code code
 ```
 

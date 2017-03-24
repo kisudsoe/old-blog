@@ -2,12 +2,14 @@
 
 - name: Kim SS
   role: Aging biologist / Bioinformatics
-  img: https://scontent.xx.fbcdn.net/v/t1.0-9/10616398_632536703527015_4052276103785296198_n.jpg?oh=46819bd77ea8cab69873d2f3e1adb6f3&oe=5951CB79
+  img: https://avatars2.githubusercontent.com/u/14266953?v=3&s=460
   github: kisudsoe
   bio: Kim SS is now a member of Functional Genomics Laboratory. Research interests are aging biology and meta-analysis for bioinformatics.
-  naver: htt://kisudsoe.naver.com
+  url: htt://kisudsoe.blog.me
   url: http://ckaging.korea.ac.kr/
   visible: true
+
+#---------------------
 
 - name: Ahmet Cecen
   role: Data Scientist / Materials Informatics
