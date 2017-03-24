@@ -1,6 +1,6 @@
 # Site settings
 title: kisudsoe's Blog
-description: "Scientific knowledge bloggings"
+description: "Bioinformatics knowledge bloggings"
 url: "https://kisudsoe.github.io"
 
 
@@ -10,7 +10,7 @@ url: "https://kisudsoe.github.io"
 baseurl: ""
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
-logo: /project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
+logo: /img/logos/Project-Pages-New-Logo.png
 
 # Tertiary Parameters
 github_username: kisudsoe
