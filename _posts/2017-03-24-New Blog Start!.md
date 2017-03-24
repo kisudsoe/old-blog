@@ -1,18 +1,18 @@
 ---
-layout:     post
-title:      블로그 시작!
-author:     Kim SS
-tags: 		post template
-subtitle:  	Some Short Description of Post
-category:  project1
+layout:    post
+title:     New Blog Start!
+author:    Kim SS
+tags: 		 post
+subtitle:  Some Short Description of Post
+category:  wiki
 ---
 
-# 제목
-잘 되려나?
+# title
+ok? good?!
 
-```
+```{R id:"j0nuzq17"}
 code code
 ```
 
 * http://jekyllthemes.org
-* 아래는 코멘트
+* Below is comment.
