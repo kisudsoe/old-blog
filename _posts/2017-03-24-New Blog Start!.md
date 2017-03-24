@@ -1,8 +1,8 @@
 ---
 layout:    post
-title:     New Blog Start!
+title:     Kim SS's Blog Start!
 author:    Kim SS
-tags: 		 post
+tags: 		 notice
 subtitle:  Some test for blog settings
 category:  wiki
 ---
