@@ -1,7 +1,7 @@
 # Site settings
-title: Project Pages
-description: "An Integrated Scientific Blogging Template"
-url: "https://projectpages.github.io"
+title: kisudsoe's Blog
+description: "Scientific knowledge bloggings"
+url: "https://kisudsoe.github.io"
 
 
 
@@ -15,7 +15,7 @@ logo: /project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
 # Tertiary Parameters
 github_username:  kisudsoe
 project_repository: kisudsoe
-disqus_shortname: project-pages
+disqus_shortname: kisudsoe
 g-analytics: UA-75881392-1
 altmetric: true
 
