@@ -1,14 +1,28 @@
-# kisudsoe's blog
-My blog made with [jekyll](http://jekyllrb.com) and hosted with Github Pages.
+#Project Pages
 
+Project Pages is Jekyll Template specifically geared towards collaborative science. For more information, click [here](https://github.com/projectpages/project-pages/wiki/).
 
-### Install
+# Nav Bar Jumbles
 
-* fork this repository
-* edit the `_config.yml` with your info
-* change the links in `_data/navigation.yml`
-* remove my posts from `_posts/`
-* rename your repo to ***your-username*.github.io**
+If you have seemingly random pages popping up on your Nav Bar recently, this is due to the fact that GitHub/Jekyll changed a fundemental rule they used to render pages. 
 
-### License
-All this stuff is under the [MIT License](https://raw.githubusercontent.com/getmicah/getmicah.github.io/master/LICENSE)
+## CAUSE:
+It used to be that if a markdown file didn't have `---` frontmatter at the beginning, it wasn't rendered as a page. This was changed very recently (like in the last 2 days) so that every markdown file anywhere no matter what gets rendered as a page.  
+
+## FIX:
+
+1) Go to:
+
+`project-pages/plugin/markdown/` or `yourreponame/plugin/markdown/` and delete `example.html` and `example.md` files. This can be done graphically for the non-Git-savvy by simply going to your:
+
+GitHub account -> Your Profile -> Repositories -> Project-Pages/Your Repo -> Pluging -> Markdown 
+
+and clicking on the files, then clicking on the "thrash can / delete this file" icon on the top right corner of the file.
+
+2) You need to change the `LICENSES.md` at:
+
+GitHub account -> Your Profile -> Repositories -> Project-Pages/Your Repo
+
+to `License.md` by clicking on the file and changing the name.
+
+The fixes are already implemented here so new forks won't have a problem, and old forks should be able merge without conflict if they know how to.
