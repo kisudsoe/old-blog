@@ -4,7 +4,7 @@ title:      New Post
 author:     Ahmet Cecen
 tags: 		template
 subtitle:  	Some Short Description of Post
-category:  wiki
+category: 
 ---
 <!-- Start Writing Below in Markdown -->
 

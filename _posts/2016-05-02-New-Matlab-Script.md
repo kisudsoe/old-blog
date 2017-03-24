@@ -4,7 +4,7 @@ title:      New Matlab Script
 author:     Ahmet Cecen
 tags: 		  template
 subtitle:   Some Short Description of the Script
-category:  wiki
+category:  
 visualworkflow: true
 ---
 {% if page.visualworkflow == true %}
