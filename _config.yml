@@ -7,13 +7,13 @@ url: "https://kisudsoe.github.io"
 
 
 # Secondary Parameters
-baseurl: "/"
+baseurl: "https://kisudsoe.github.io/"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
 logo: /project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
-github_username:  kisudsoe
+github_username: kisudsoe
 project_repository: kisudsoe
 disqus_shortname: kisudsoe
 g-analytics:
