@@ -24,7 +24,8 @@ vertical:		</section><section markdown="1">
 {{ page.horizontal }}
 <!-- Start Writing Below in Markdown -->
 
-<img src="/img/2017-03-25-Confounding_factor_control/슬라이드2.JPG" width="1920px" />
+**Stratification**
+![](/img/2017-03-25-Confounding_factor_control/슬라이드3.JPG)
 {{ page.horizontal }}
 
 ![](/img/2017-03-25-Confounding_factor_control/슬라이드3.JPG)
