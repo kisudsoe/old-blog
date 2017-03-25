@@ -12,13 +12,14 @@ horizontal:	</section></section><section markdown="1" data-background="http://pr
 vertical:		</section><section markdown="1">
 ---
 
+<section markdown="1" data-background="http://kisudsoe.github.io/img/slidebackground.png"><section markdown="1">
 ## {{ page.title }}
 
 <hr>
 
 #### {{ page.author }}
 
-#### {{ page.date | | date: "%I %M %p ,%a, %b %d %Y"}}
+#### {{ page.date | | date: "%Y %b %d, %a"}}
 
 {{ page.horizontal }}
 <!-- Start Writing Below in Markdown -->
