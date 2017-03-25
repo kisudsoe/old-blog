@@ -2,7 +2,7 @@
 layout:    post
 title:     Kim SS's Blog Start!
 author:    Kim SS
-tags: 		 notice
+tags: 		 log
 subtitle:  Some test for blog settings
 category:  log
 ---
