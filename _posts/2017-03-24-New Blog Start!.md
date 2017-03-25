@@ -1,7 +1,7 @@
 ---
 layout:    post
 title:     Kim SS's Blog Start!
-author:    Kim SS
+author:    Ahmet Cecen
 tags: 		 notice
 subtitle:  Some test for blog settings
 category:  wiki
