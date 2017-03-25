@@ -5,4 +5,4 @@ description: "Kim SS's research interest"
 header-img: "img/home-bg.jpg"
 ---
 
-This will be described.
+My research interests are aging biology and meta-analysis for bioinformatics. In addition, molecular signaling networks, evolutionary conserved features, etc..
