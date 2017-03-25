@@ -1,10 +1,10 @@
 ---
-layout:     	slide
-title:     		Confounding factor control
-author:     	Kim SS
-tags:         wiki statistics presentation
-subtitle:    	How to control confounding factors of my data?
-category:     wiki
+layout:    slide
+title:     Confounding factor control
+author:    Kim SS
+tags:      wiki statistics presentation
+subtitle:  How to control confounding factors of my data?
+category:  wiki
 
 theme:		default # default/beige/blood/moon/night/serif/simple/sky/solarized
 trans:		default # default/cube/page/concave/zoom/linear/fade/none
