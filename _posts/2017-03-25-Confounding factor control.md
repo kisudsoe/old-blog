@@ -24,4 +24,5 @@ vertical:		</section><section markdown="1">
 {{ page.horizontal }}
 <!-- Start Writing Below in Markdown -->
 
+![2](/img/2017-03-25-Confounding-factor-control/슬라이드2.JPG)
 {{ page.horizontal }}
