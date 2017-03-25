@@ -2,7 +2,7 @@
 layout:     	slide
 title:     		Confounding factor control
 author:     	Kim SS
-tags:         template
+tags:         wiki statistics
 subtitle:    	Some Short Description of Presentation
 
 theme:		default # default/beige/blood/moon/night/serif/simple/sky/solarized
@@ -24,5 +24,5 @@ vertical:		</section><section markdown="1">
 {{ page.horizontal }}
 <!-- Start Writing Below in Markdown -->
 
-![2](/img/2017-03-25-Confounding-factor-control/슬라이드2.JPG)
+![2](/img/2017-03-25-Confounding_factor_control/슬라이드2.JPG)
 {{ page.horizontal }}
