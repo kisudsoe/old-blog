@@ -2,13 +2,13 @@
 layout:     	slide
 title:     		Confounding factor control
 author:     	Kim SS
-tags:         wiki statistics
-subtitle:    	Some Short Description of Presentation
+tags:         wiki statistics presentation
+subtitle:    	How to control confounding factors of my data?
 
 theme:		default # default/beige/blood/moon/night/serif/simple/sky/solarized
 trans:		default # default/cube/page/concave/zoom/linear/fade/none
 
-horizontal:	</section></section><section markdown="1" data-background="http://projectpages.github.io/project-pages/img/slidebackground.png"><section markdown="1">
+horizontal:	</section></section><section markdown="1" data-background="/img/slidebackground.png"><section markdown="1">
 vertical:		</section><section markdown="1">
 ---
 
