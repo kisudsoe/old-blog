@@ -12,7 +12,7 @@ horizontal:	</section></section><section markdown="1" data-background="http://pr
 vertical:		</section><section markdown="1">
 ---
 
-<section markdown="1" data-background="http://kisudsoe.github.io/img/slidebackground.png"><section markdown="1">
+<section markdown="1" data-background="/img/slidebackground.png"><section markdown="1">
 ## {{ page.title }}
 
 <hr>
@@ -24,7 +24,7 @@ vertical:		</section><section markdown="1">
 {{ page.horizontal }}
 <!-- Start Writing Below in Markdown -->
 
-![](/img/2017-03-25-Confounding_factor_control/슬라이드2.JPG)
+<img src="/img/2017-03-25-Confounding_factor_control/슬라이드2.JPG" width="1920px" />
 {{ page.horizontal }}
 
 ![](/img/2017-03-25-Confounding_factor_control/슬라이드3.JPG)
