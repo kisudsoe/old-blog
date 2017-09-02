@@ -8,8 +8,8 @@ category:  log
 ---
 
 # title
-Kim SS's english blog is started!
-Now
+Kim SS's archive for bioinformatic knowleges blogging was started!
+My blog will be contains 'Statistics', 'R coding', 'Python coding', etc.
 
 ```
 code code
