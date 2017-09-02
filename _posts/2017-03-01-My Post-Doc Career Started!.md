@@ -7,6 +7,6 @@ subtitle:
 category:  log
 ---
 
-![](http://42108513.r.lightningbase-cdn.com/wp-content/uploads/2014/03/PhD-fate-graph.png)
+![](http://biosciencecareers.org/wp-content/uploads/2013/11/academic-career-pathways.jpg)
 
-I'm started my first post-doc job at March 2017 in CK Lab, where I got doctor's degree.
+I started my first post-doc job at March 2017 in CK Lab, where I got doctor's degree.
