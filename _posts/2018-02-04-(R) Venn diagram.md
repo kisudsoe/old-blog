@@ -6,6 +6,6 @@ tags: 	   jupyter Rcode
 subtitle:  R code for Venn diagram
 category:  post
 
-notebookfilename: 180204_Venn_diagram
+notebookfilename: ss.venn
 visualworkflow: true
 ---
