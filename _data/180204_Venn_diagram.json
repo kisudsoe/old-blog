@@ -16,7 +16,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "## Prepare input data as list format"
+    "### Prepare input data as list format"
    ]
   },
   {
@@ -61,7 +61,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "## Load limma package."
+    "### Load limma package."
    ]
   },
   {
@@ -86,7 +86,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "## Unionlist is needed."
+    "### Unionlist is needed."
    ]
   },
   {
@@ -118,7 +118,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "## Get names of the groups"
+    "### Get names of the groups"
    ]
   },
   {
@@ -150,7 +150,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "## Togethering the vectors to one dataframe list"
+    "### Togethering the vectors to one dataframe list"
    ]
   },
   {
@@ -201,7 +201,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "## Make TRUE/FALSE table"
+    "### Make TRUE/FALSE table"
    ]
   },
   {
@@ -297,7 +297,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "## Generate Venn Diagram"
+    "### Generate Venn Diagram"
    ]
   },
   {
