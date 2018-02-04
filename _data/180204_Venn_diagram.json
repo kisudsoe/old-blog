@@ -6,7 +6,7 @@
    "source": [
     "# Venn diagram\n",
     "\n",
-    "## Features\n",
+    "**Features**\n",
     "\n",
     "- Unlimited venn input groups\n",
     "- You don'k need count numbers. Just input the whole lists!"
@@ -16,7 +16,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "Prepare input data as list format"
+    "## Prepare input data as list format"
    ]
   },
   {
@@ -50,7 +50,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "Load limma package."
+    "## Load limma package."
    ]
   },
   {
@@ -75,7 +75,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "Unionlist is needed."
+    "## Unionlist is needed."
    ]
   },
   {
@@ -100,7 +100,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "Get names of the groups"
+    "## Get names of the groups"
    ]
   },
   {
@@ -125,7 +125,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "Togethering the vectors to one dataframe list"
+    "## Togethering the vectors to one dataframe list"
    ]
   },
   {
@@ -155,14 +155,14 @@
     "    title = c(title,paste0(g.title[i],'\\n',length(grouplist[[i]])))\n",
     "}\n",
     "rownames(unionPr) = unionlist\n",
-    "print(unionPr)"
+    "unionPr"
    ]
   },
   {
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "Make TRUE/FALSE table"
+    "## Make TRUE/FALSE table"
    ]
   },
   {
@@ -222,7 +222,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "Generate Venn Diagram"
+    "## Generate Venn Diagram"
    ]
   },
   {
@@ -251,7 +251,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "Here is the ss.venn function codes"
+    "## Here is the ss.venn function codes"
    ]
   },
   {
