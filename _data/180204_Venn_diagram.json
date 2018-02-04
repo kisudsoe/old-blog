@@ -21,7 +21,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 18,
+   "execution_count": 2,
    "metadata": {},
    "outputs": [
     {
@@ -47,6 +47,17 @@
    ]
   },
   {
+   "cell_type": "raw",
+   "metadata": {},
+   "source": [
+    "   Length Class  Mode     \n",
+    "HS 4      -none- character\n",
+    "MM 4      -none- character\n",
+    "SC 3      -none- character\n",
+    "EC 2      -none- character"
+   ]
+  },
+  {
    "cell_type": "markdown",
    "metadata": {},
    "source": [
@@ -55,7 +66,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 26,
+   "execution_count": 3,
    "metadata": {},
    "outputs": [
     {
@@ -80,7 +91,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 19,
+   "execution_count": 4,
    "metadata": {},
    "outputs": [
     {
@@ -97,6 +108,13 @@
    ]
   },
   {
+   "cell_type": "raw",
+   "metadata": {},
+   "source": [
+    "[1] \"AAA\" \"BBB\" \"CCC\" \"DDD\" \"EEE\" \"FFF\" \"GGG\""
+   ]
+  },
+  {
    "cell_type": "markdown",
    "metadata": {},
    "source": [
@@ -105,7 +123,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 22,
+   "execution_count": 5,
    "metadata": {},
    "outputs": [
     {
@@ -122,6 +140,13 @@
    ]
   },
   {
+   "cell_type": "raw",
+   "metadata": {},
+   "source": [
+    "[1] \"HS\" \"MM\" \"SC\" \"EC\""
+   ]
+  },
+  {
    "cell_type": "markdown",
    "metadata": {},
    "source": [
@@ -130,7 +155,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 41,
+   "execution_count": 6,
    "metadata": {},
    "outputs": [
     {
@@ -155,7 +180,21 @@
     "    title = c(title,paste0(g.title[i],'\\n',length(grouplist[[i]])))\n",
     "}\n",
     "rownames(unionPr) = unionlist\n",
-    "unionPr"
+    "print(unionPr)"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "metadata": {},
+   "source": [
+    "    [,1]  [,2]  [,3]  [,4] \n",
+    "AAA \"AAA\" \"AAA\" \"AAA\" \"AAA\"\n",
+    "BBB \"BBB\" \"BBB\" \"BBB\" NA   \n",
+    "CCC \"CCC\" \"CCC\" NA    NA   \n",
+    "DDD \"DDD\" NA    NA    NA   \n",
+    "EEE NA    \"EEE\" NA    NA   \n",
+    "FFF NA    NA    \"FFF\" NA   \n",
+    "GGG NA    NA    NA    \"GGG\""
    ]
   },
   {
@@ -167,40 +206,40 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 27,
+   "execution_count": 7,
    "metadata": {},
    "outputs": [
     {
      "data": {
       "text/plain": [
        "$list\n",
-       "    HS \\n 4 MM \\n 4 SC \\n 3 EC \\n 2\n",
-       "AAA    TRUE    TRUE    TRUE    TRUE\n",
-       "BBB    TRUE    TRUE    TRUE   FALSE\n",
-       "CCC    TRUE    TRUE   FALSE   FALSE\n",
-       "DDD    TRUE   FALSE   FALSE   FALSE\n",
-       "EEE   FALSE    TRUE   FALSE   FALSE\n",
-       "FFF   FALSE   FALSE    TRUE   FALSE\n",
-       "GGG   FALSE   FALSE   FALSE    TRUE\n",
+       "    HS\\n4 MM\\n4 SC\\n3 EC\\n2\n",
+       "AAA  TRUE  TRUE  TRUE  TRUE\n",
+       "BBB  TRUE  TRUE  TRUE FALSE\n",
+       "CCC  TRUE  TRUE FALSE FALSE\n",
+       "DDD  TRUE FALSE FALSE FALSE\n",
+       "EEE FALSE  TRUE FALSE FALSE\n",
+       "FFF FALSE FALSE  TRUE FALSE\n",
+       "GGG FALSE FALSE FALSE  TRUE\n",
        "\n",
        "$vennCounts\n",
-       "   HS \\n 4 MM \\n 4 SC \\n 3 EC \\n 2 Counts\n",
-       "1        0       0       0       0      0\n",
-       "2        0       0       0       1      1\n",
-       "3        0       0       1       0      1\n",
-       "4        0       0       1       1      0\n",
-       "5        0       1       0       0      1\n",
-       "6        0       1       0       1      0\n",
-       "7        0       1       1       0      0\n",
-       "8        0       1       1       1      0\n",
-       "9        1       0       0       0      1\n",
-       "10       1       0       0       1      0\n",
-       "11       1       0       1       0      0\n",
-       "12       1       0       1       1      0\n",
-       "13       1       1       0       0      1\n",
-       "14       1       1       0       1      0\n",
-       "15       1       1       1       0      1\n",
-       "16       1       1       1       1      1\n",
+       "   HS\\n4 MM\\n4 SC\\n3 EC\\n2 Counts\n",
+       "1      0     0     0     0      0\n",
+       "2      0     0     0     1      1\n",
+       "3      0     0     1     0      1\n",
+       "4      0     0     1     1      0\n",
+       "5      0     1     0     0      1\n",
+       "6      0     1     0     1      0\n",
+       "7      0     1     1     0      0\n",
+       "8      0     1     1     1      0\n",
+       "9      1     0     0     0      1\n",
+       "10     1     0     0     1      0\n",
+       "11     1     0     1     0      0\n",
+       "12     1     0     1     1      0\n",
+       "13     1     1     0     0      1\n",
+       "14     1     1     0     1      0\n",
+       "15     1     1     1     0      1\n",
+       "16     1     1     1     1      1\n",
        "attr(,\"class\")\n",
        "[1] \"VennCounts\"\n"
       ]
@@ -216,6 +255,42 @@
     "colnames(union) = title\n",
     "out = list(list=union, vennCounts=vennCounts(union))\n",
     "out"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "metadata": {},
+   "source": [
+    "$list\n",
+    "    HS\\n4 MM\\n4 SC\\n3 EC\\n2\n",
+    "AAA  TRUE  TRUE  TRUE  TRUE\n",
+    "BBB  TRUE  TRUE  TRUE FALSE\n",
+    "CCC  TRUE  TRUE FALSE FALSE\n",
+    "DDD  TRUE FALSE FALSE FALSE\n",
+    "EEE FALSE  TRUE FALSE FALSE\n",
+    "FFF FALSE FALSE  TRUE FALSE\n",
+    "GGG FALSE FALSE FALSE  TRUE\n",
+    "\n",
+    "$vennCounts\n",
+    "   HS\\n4 MM\\n4 SC\\n3 EC\\n2 Counts\n",
+    "1      0     0     0     0      0\n",
+    "2      0     0     0     1      1\n",
+    "3      0     0     1     0      1\n",
+    "4      0     0     1     1      0\n",
+    "5      0     1     0     0      1\n",
+    "6      0     1     0     1      0\n",
+    "7      0     1     1     0      0\n",
+    "8      0     1     1     1      0\n",
+    "9      1     0     0     0      1\n",
+    "10     1     0     0     1      0\n",
+    "11     1     0     1     0      0\n",
+    "12     1     0     1     1      0\n",
+    "13     1     1     0     0      1\n",
+    "14     1     1     0     1      0\n",
+    "15     1     1     1     0      1\n",
+    "16     1     1     1     1      1\n",
+    "attr(,\"class\")\n",
+    "[1] \"VennCounts\""
    ]
   },
   {
