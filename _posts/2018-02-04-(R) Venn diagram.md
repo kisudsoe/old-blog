@@ -2,16 +2,16 @@
 layout:    post
 title:     (R) Venn diagram
 author:    Kim SS
-tags: 	   post
+tags: 	   post Rcode
 subtitle:  R code for Venn diagram
-category:  Rcode
+category:  post
 ---
 
 # Venn diagram
 
 ## Features
 
-- Unlimited venn input data
+- Unlimited venn input groups
 - You don'k need count numbers. Just input the whole lists!
 
 Prepare input data as list format
@@ -78,18 +78,16 @@ rownames(unionPr) = unionlist
 unionPr
 ```
 
-
-<table>
-<tbody>
-	<tr><th scope=row>AAA</th><td>AAA</td><td>AAA</td><td>AAA</td><td>AAA</td></tr>
-	<tr><th scope=row>BBB</th><td>BBB</td><td>BBB</td><td>BBB</td><td>NA </td></tr>
-	<tr><th scope=row>CCC</th><td>CCC</td><td>CCC</td><td>NA </td><td>NA </td></tr>
-	<tr><th scope=row>DDD</th><td>DDD</td><td>NA </td><td>NA </td><td>NA </td></tr>
-	<tr><th scope=row>EEE</th><td>NA </td><td>EEE</td><td>NA </td><td>NA </td></tr>
-	<tr><th scope=row>FFF</th><td>NA </td><td>NA </td><td>FFF</td><td>NA </td></tr>
-	<tr><th scope=row>GGG</th><td>NA </td><td>NA </td><td>NA </td><td>GGG</td></tr>
-</tbody>
-</table>
+```
+    [,1]  [,2]  [,3]  [,4] 
+AAA "AAA" "AAA" "AAA" "AAA"
+BBB "BBB" "BBB" "BBB" NA   
+CCC "CCC" "CCC" NA    NA   
+DDD "DDD" NA    NA    NA   
+EEE NA    "EEE" NA    NA   
+FFF NA    NA    "FFF" NA   
+GGG NA    NA    NA    "GGG"
+```
 
 
 
