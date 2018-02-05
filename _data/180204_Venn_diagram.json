@@ -354,7 +354,8 @@
     }
    ],
    "source": [
-    "ss.venn = function(grouplist,main=\"\",file=F) { # 170704 ver\n",
+    "# 170704 ver, 180204 post\n",
+    "ss.venn = function(grouplist,main=\"\",file=F) {\n",
     "\tlibrary(limma)\n",
     "\t# Generate union group from input three groups\n",
     "\tunionlist = Reduce(union, grouplist)\n",
