@@ -1,6 +1,6 @@
 ---
 layout:    post
-title:     My Post-Doc Carrer Started
+title:     My Post-Doc Career Started
 author:    Kim SS
 tags:      log
 subtitle:
