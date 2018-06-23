@@ -1,8 +1,8 @@
 ---
 layout:    post
-title:     [Book] Test page
+title:     (Book) Test page
 author:    Kim SS
-tags: 	   
+tags: 	   test
 subtitle:  
 category:  post
 ---
