@@ -2,7 +2,7 @@
 layout:    post
 title:     My Post-Doc Carrer Started
 author:    Kim SS
-tags: 		 log
+tags:      log
 subtitle:
 category:  log
 ---
