@@ -1,10 +1,10 @@
 ---
-layout:     post
-title:      Jekyll Grammer
-author:     Kim SS
-tags: 	    log
-subtitle:   How to use things about Jekyll
-category:   log
+layout:    post
+title:     Jekyll Grammars
+author:    Kim SS
+tags: 	   log
+subtitle:  How to use things about Jekyll
+category:  log
 ---
 
 
