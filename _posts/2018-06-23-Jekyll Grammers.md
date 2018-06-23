@@ -11,7 +11,7 @@ category:   log
 
 # Linking to posts
 
-`2018-06-23` Add | 
+`2018-06-23` Add post
 
 https://jekyllrb.com/docs/templates/#linking-to-posts
 
